@@ -1,1124 +1,1104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>I&M Consulting</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Favicons
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">-->
-<link href="img/im.png" rel="icon">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-</head>
-<style>
-.mobile-container {
-  max-width: 480px;
-  margin: auto;
-  background-color: #555;
-  height: 500px;
-  color: white;
-  border-radius: 10px;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-<body style="width: 100%;">
-
-  <!--==========================
-    Header
-  ============================-->
-  <header id="header">
-
-    <div class="container-fluid">
-
-      <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">I&M Consulting</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-      <!--    <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>-->
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
-        <ol class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>We are professional</h2>
-                <p>Our clients hire us because they’re looking for a partner who can develop a plan that is customized to their business, a plan that will drive visits, generate leads and grow market share. Our process in designing lead development plans is simple but powerful.</p>
-                <a href="#about" class="btn-get-started scrollto">About Us</a>
-              </div>
+   <head>
+      <meta charset="utf-8">
+      <title>I&M Consulting</title>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="" name="keywords">
+      <meta content="" name="description">
+      <!-- Favicons
+         <link href="img/favicon.png" rel="icon">
+         <link href="img/apple-touch-icon.png" rel="apple-touch-icon">-->
+      <link href="img/im.png" rel="icon">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+      <!-- Bootstrap CSS File -->
+      <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Libraries CSS Files -->
+      <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <link href="lib/animate/animate.min.css" rel="stylesheet">
+      <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+      <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+      <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+      <!-- Main Stylesheet File -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/vanilla.css" rel="stylesheet">
+   </head>
+   <style>
+      .mobile-container {
+      max-width: 480px;
+      margin: auto;
+      background-color: #555;
+      height: 500px;
+      color: white;
+      border-radius: 10px;
+      }
+      .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+      }
+      .topnav #myLinks {
+      display: none;
+      }
+      .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+      }
+      .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      }
+      .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      }
+      .active {
+      background-color: white;
+      color: white;
+      }
+   </style>
+   <body style="width: 100%;">
+      <!--==========================
+         Header
+         ============================-->
+      <header id="header">
+         <div class="container-fluid">
+            <div id="logo" class="pull-left">
+               <h1><a href="#intro" class="scrollto">I&M Consulting</a></h1>
+               <!-- Uncomment below if you prefer to use an image logo -->
+               <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
             </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Check out the work we've done</h2>
-                <p>Our web development process begins with an audit of your current website. We then put our team to work to create a state-of-the-art design combined with an intuitive site structure and back-end technologies to turn your web site into a powerful sales & marketing tool.</p>
-                <a href="#portfolio" class="btn-get-started scrollto">Our Portfolio</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Interested in working together?</h2>
-                <p>We are here to answer any questions you may have regarding our services. A core value of I&M Consulting is our availability to you. Interested in working together? Message us to schedule a meeting below.
-</p>
-                <a href="#contact" class="btn-get-started scrollto">Contact Us</a>
-              </div>
-            </div>
-          </div>
-
-    <!--      <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
-              </div>
-            </div>
-          </div>-->
-
-        </div>
-
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
-      </div>
-    </div>
-  </section><!-- #intro -->
-
-  <main id="main">
-
-    <!--==========================
-      Featured Services Section
-    ============================-->
-    <section id="featured-services">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Strategy, Outcomes & Measurement</a></h4>
-            <p class="description">Define measurable outcomes & KPIs, and develop executable strategies and plans.</p>
-          </div>
-
-          <div class="col-lg-4 box box-bg">
-            <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Operational Improvement</a></h4>
-            <p class="description">Streamline processes, lower costs, and use data to make better decisions.</p>
-          </div>
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">IT Transformation</a></h4>
-            <p class="description">Our strategy consultants provide the necessary change project management and communication support to address the human side of change.</p>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- #featured-services -->
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>About Us</h3>
-          <p>I&M Design is an integrated consulting team of designers, developers, and engineers that builds fresh experiences people love.
-            Powered by our design-led innovation process we deliver end-to-end experiences to help businesses grow.
-            From creative brands and websites to intuitive apps and systems, we work with you from strategy to execution to create what's next.</p>
-        </header>
-
-        <div class="row about-cols">
-
-          <div class="col-md-4 wow fadeInUp">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Mission</a></h2>
-              <p>
-                Our mission is to exceed expectations in providing excellent service, unexpected quality and outstanding value, for our client partners and employees.
-                We are our clients most trusted provider of these professional services by consistently exceeding their expectations.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-              </div>
-
-
-              <h2 class="title"><a href="#">Our Plan</a></h2>
-              <p>
-                Offering the expertise that a proactive-oriented and market-opportunity seeking company needs to develop and enter new product distribution and new market segments in new markets.
-              We intend to provide a number of necessary services to the business community.
-            </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Vision</a></h2>
-              <p>
-                To be the partner of choice for organizations and consultants by building strong relationships,
-                providing reliable solutions and resources, and always producing outstanding results for our clients.
-                Relationships. Reliability. Results. It’s who we are.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #about -->
-
-    <!--==========================
-      Services Section
-    ============================-->
-    <section id="services">
-      <div class="container">
-        <header class="section-header wow fadeInUp">
-          <h3>Services</h3>
-          <p>From strategy to execution, our winning combination of innovative thinking, scientific design, sophisticated development, and ongoing analysis ensure we’re delivering value to help you grow.</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Innovation Strategy</a></h4>
-            <p class="description">We focus on building market understanding, credibility, and better execution, and good business strategies and annual business plans keep companies on track.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-            <h4 class="title"><a href="">Experience Design</a></h4>
-            <p class="description">Custom web design tailored to your business, your branding and your target customer, all wrapped into a package that works as good as it looks.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="">Software Development</a></h4>
-            <p class="description">Are you looking to generate more leads? Tame a complex, content-heavy website?
-              Our team of web design experts builds websites that look good, appear at the top of search results and are fine-tuned to convert visitors into customers.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Marketing</a></h4>
-            <p class="description">Help companies create marketing strategies that can take product sales to a new level.
-              This comes through a branding process, which can include: positioning; messaging; collateral materials;
-              advertising; public relations; company naming; product naming; and tag lines.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-            <h4 class="title"><a href="">Analytics & Visualization</a></h4>
-            <p class="description">We turn our customers
-              analytics into an automated process, instead of a
-              labor-intensive, time-consuming manual process conducted by channel managers and marketing executives.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Agile Program & Project Management</a></h4>
-            <p class="description">
-            Our Agile practitioners not only have deep knowledge of Agile methodologies (Scrum, Lean, Kanban, etc.). We work side-by-side with our clients
-            to support complete transformations of people, processes, and tools for long-term strategies and scalable successes.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #services -->
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-        <h3>Ready to work with us?</h3>
-        <p style="padding: 0px 3em 0 3em;">From simple (and not-so-simple) blogs and business sites to full e-commerce and membership sites, we’re there to strategize, support, and take your site from dream to reality. We’re all about creating an exceptional experience — for you and for your users.</p>
-        <a class="cta-btn" href="#contact">Contact Us</a>
-      </div>
-    </section><!-- #call-to-action -->
-
-    <!--==========================
-      Skills Section
-    ============================-->
-    <section id="skills">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Our Skills</h3>
-          <p>I&M Consulting is a management advisory firm that assists organizations with complex transformational challenges. Our differentiator is in how we do it. A powerful mix of business consultants, industry talent, and IT experts, we are eager to take on your challenge and provide a custom solution tailored to suit your specific business or public sector needs.</p>
-        </header>
-
-        <div class="skills-content">
-
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">HTML & CSS <i class="val">100%</i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">JavaScript <i class="val">95%</i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Python <i class="val">90%</i></span>
-            </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Photoshop <i class="val">90%</i></span>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!--==========================
-      Facts Section
-    ============================-->
-    <section id="facts"  class="wow fadeIn">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Facts</h3>
-          <p>A full suite of consulting, tools, and services to turn uncertainty into a clear path forward.</p>
-        </header>
-
-        <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">40</span>
-            <p>Clients</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">120</span>
-            <p>Projects</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">2,500</span>
-            <p>Hours Of Support</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">10</span>
-            <p>Hard Workers</p>
-  				</div>
-
-  			</div>
-
-  <!--      <div class="facts-img">
-          <img src="img/facts-img.png" alt="" class="img-fluid">
-        </div>-->
-
-      </div>
-    </section><!-- #facts -->
-
-    <!--==========================
-      Portfolio Section
-    ============================-->
-    <section id="portfolio"  class="section-bg" >
-      <div class="container">
-
-        <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
-        </header>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Design</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/zensolutions.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/zensolutions.jpg" class="link-preview" data-lightbox="portfolio" data-title="Zen Solutions" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="https://www.zensolutionsinc.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.zensolutionsinc.com/" target="_blank">Zen Solutions</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app filter-web wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/bioamp.png" class="img-fluid" alt="" style="height: 15.2em !important;">
-                <a href="img/portfolio/bioamp.png" class="link-preview" data-lightbox="portfolio" data-title="BioAmp Diagnostics" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="https://bioampdx.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://bioampdx.com/" target="_blank">BioAmp Diagnostics</a></h4>
-                <p>UI/UX Design, Web Apps, Social Media Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/fagov.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/fagov.jpg" class="link-preview" data-lightbox="portfolio" data-title="Foreign Assistance" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="https://www.foreignassistance.gov/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.foreignassistance.gov/" target="_blank">Foreign Assistance</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/mindbody.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/mindbody.jpg" class="link-preview" data-lightbox="portfolio" data-title="The MindBody Project" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.themindbodyproject.com/" target="_blank">The MindBody Project</a></h4>
-                <p>UI/UX Design, Web Apps, Social Media Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/atlanticply.png" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/atlanticply.png" class="link-preview" data-lightbox="portfolio" data-title="Atlantic Plywood" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="http://atlanticplywood.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="http://atlanticplywood.com/" target="_blank">Atlantic Plywood</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/cdph.png" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/cdph.png" class="link-preview" data-lightbox="portfolio" data-title="CDPH - Department of Public Health" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="https://www.cdph.ca.gov/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="https://www.cdph.ca.gov/" target="_blank">CDPH</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/capture.png" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/capture.png" class="link-preview" data-lightbox="portfolio" data-title="Ferrari Design" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="http://ferraridesign.github.io" target="_blank" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="http://ferraridesign.github.io" target="_blank">Ferrari Design</a></h4>
-                <p>UI/UX Design, Web Apps, Social Media Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/rosebud.png" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/rosebud.png" class="link-preview" data-lightbox="portfolio" data-title="Rosebud Ireland" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="http://www.rosebudstunes.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="http://www.rosebudstunes.com/" target="_blank">Rosebud Ireland</a></h4>
-                <p>UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/teamworkstate.jpg" class="img-fluid" alt="" style="height: 15.2em !important;width: fit-content;">
-                <a href="img/portfolio/teamworkstate.jpg" class="link-preview" data-lightbox="portfolio" data-title="Teamwork@State - Department of State" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Teamwork@State</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/qddr.jpg" class="img-fluid" alt="" style="height: 15.2em !important;width: fit-content;">
-                <a href="img/portfolio/qddr.jpg" class="link-preview" data-lightbox="portfolio" data-title="QDDR - Department of State" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">QDDR</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/photography.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/photography.jpg" class="link-preview" data-lightbox="portfolio" data-title="Photography" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Photography</a></h4>
-                <p>UI/UX Design, Web Apps</p>
-              </div>
-            </div>
-          </div>
-
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-                      <div class="portfolio-wrap">
-                        <figure>
-                          <img src="img/portfolio/usaid.png" class="img-fluid" alt="" style="height: 15.2em !important;">
-                          <a href="img/portfolio/usaid.png" class="link-preview" data-lightbox="portfolio" data-title="USAID - Performance Management Tool" title="Preview"><i class="ion ion-eye"></i></a>
-                          <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                          <h4><a href="#">USAID</a></h4>
-                          <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+            <nav id="nav-menu-container">
+               <ul class="nav-menu">
+                  <li class="menu-active"><a href="#intro">Home</a></li>
+                  <li><a href="#about">About Us</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#process">Process</a></li>
+                  <li><a href="#team">Team</a></li>
+                  <!--    <li class="menu-has-children"><a href="">Drop Down</a>
+                     <ul>
+                       <li><a href="#">Drop Down 1</a></li>
+                       <li><a href="#">Drop Down 3</a></li>
+                       <li><a href="#">Drop Down 4</a></li>
+                       <li><a href="#">Drop Down 5</a></li>
+                     </ul>
+                     </li>-->
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+         </div>
+      </header>
+      <!-- #header -->
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+      <!--==========================
+         Intro Section
+         ============================-->
+      <section id="intro">
+         <div class="intro-container">
+            <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+               <ol class="carousel-indicators"></ol>
+               <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                     <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+                     <div class="carousel-container">
+                        <div class="carousel-content">
+                           <h2>We are professional</h2>
+                           <p>Our clients hire us because they’re looking for a partner who can develop a plan that is customized to their business, a plan that will drive visits, generate leads and grow market share. Our process in designing lead development plans is simple but powerful.</p>
+                           <a href="#about" class="btn-get-started scrollto">About Us</a>
                         </div>
-                      </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
-                      <div class="portfolio-wrap">
-                        <figure>
-                          <img src="img/portfolio/3k1a.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                          <a href="img/portfolio/3k1a.jpg" class="link-preview" data-lightbox="portfolio" data-title="3k1a Strategies" title="Preview"><i class="ion ion-eye"></i></a>
-                          <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                        </figure>
-
-                        <div class="portfolio-info">
-                          <h4><a href="#">3k1a Strategies</a></h4>
-                          <p>UI/UX Design, Web Apps</p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+                     <div class="carousel-container">
+                        <div class="carousel-content">
+                           <h2>Check out the work we've done</h2>
+                           <p>Our web development process begins with an audit of your current website. We then put our team to work to create a state-of-the-art design combined with an intuitive site structure and back-end technologies to turn your web site into a powerful sales & marketing tool.</p>
+                           <a href="#portfolio" class="btn-get-started scrollto">Our Portfolio</a>
                         </div>
-                      </div>
-                    </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+                     <div class="carousel-container">
+                        <div class="carousel-content">
+                           <h2>Interested in working together?</h2>
+                           <p>We are here to answer any questions you may have regarding our services. A core value of I&M Consulting is our availability to you. Interested in working together? Message us to schedule a meeting below.</p>
+                           <a href="#contact" class="btn-get-started scrollto">Contact Us</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!--      <div class="carousel-item">
+                     <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+                     <div class="carousel-container">
+                       <div class="carousel-content">
+                         <h2>Nam libero tempore</h2>
+                         <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+                         <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                       </div>
+                     </div>
+                     </div>
 
-                              <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="portfolio-wrap">
-                                  <figure>
-                                    <img src="img/portfolio/namemedia.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                                    <a href="img/portfolio/namemedia.jpg" class="link-preview" data-lightbox="portfolio" data-title="NameMedia" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                  </figure>
+                     <div class="carousel-item">
+                     <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+                     <div class="carousel-container">
+                       <div class="carousel-content">
+                         <h2>Magnam aliquam quaerat</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                         <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                       </div>
+                     </div>
+                     </div>-->
+               </div>
+               <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+               <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- #intro -->
+      <main id="main">
+         <!--==========================
+            Featured Services Section
+            ============================-->
+         <section id="featured-services">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-4 box">
+                     <i class="ion-ios-bookmarks-outline"></i>
+                     <h4 class="title"><a href="">Strategy, Outcomes & Measurement</a></h4>
+                     <p class="description">Define measurable outcomes & KPIs, and develop executable strategies and plans.</p>
+                  </div>
+                  <div class="col-lg-4 box box-bg">
+                     <i class="ion-ios-stopwatch-outline"></i>
+                     <h4 class="title"><a href="">Operational Improvement</a></h4>
+                     <p class="description">Streamline processes, lower costs, and use data to make better decisions.</p>
+                  </div>
+                  <div class="col-lg-4 box">
+                     <i class="ion-ios-heart-outline"></i>
+                     <h4 class="title"><a href="">IT Transformation</a></h4>
+                     <p class="description">Our strategy consultants provide the necessary change project management and communication support to address the human side of change.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- #featured-services -->
+         <!--==========================
+            About Us Section
+            ============================-->
+         <section id="about">
+            <div class="container">
+               <header class="section-header">
+                  <h3>About Us</h3>
+                  <p>I&M Design is an integrated consulting team of designers, developers, and engineers that builds fresh experiences people love.
+                     Powered by our design-led innovation process we deliver end-to-end experiences to help businesses grow.
+                     From creative brands and websites to intuitive apps and systems, we work with you from strategy to execution to create what's next.
+                  </p>
+               </header>
+               <div class="row about-cols">
+                  <div class="col-md-4 wow fadeInUp">
+                     <div class="about-col">
+                        <div class="img">
+                           <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                        </div>
+                        <h2 class="title"><a href="#">Our Mission</a></h2>
+                        <p>
+                           Our mission is to exceed expectations in providing excellent service, unexpected quality and outstanding value, for our client partners and employees.
+                           We are our clients most trusted provider of these professional services by consistently exceeding their expectations.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="about-col">
+                        <div class="img">
+                           <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="ion-ios-list-outline"></i></div>
+                        </div>
+                        <h2 class="title"><a href="#">Our Plan</a></h2>
+                        <p>
+                           Offering the expertise that a proactive-oriented and market-opportunity seeking company needs to develop and enter new product distribution and new market segments in new markets.
+                           We intend to provide a number of necessary services to the business community.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="about-col">
+                        <div class="img">
+                           <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+                        </div>
+                        <h2 class="title"><a href="#">Our Vision</a></h2>
+                        <p>
+                           To be the partner of choice for organizations and consultants by building strong relationships,
+                           providing reliable solutions and resources, and always producing outstanding results for our clients.
+                           Relationships. Reliability. Results. It’s who we are.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- #about -->
+         <!--==========================
+            Services Section
+            ============================-->
+         <section id="services">
+            <div class="container">
+               <header class="section-header wow fadeInUp">
+                  <h3>Services</h3>
+                  <p>From strategy to execution, our winning combination of innovative thinking, scientific design, sophisticated development, and ongoing analysis ensure we’re delivering value to help you grow.</p>
+               </header>
+               <div class="row">
+                  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                     <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                     <h4 class="title"><a href="">Innovation Strategy</a></h4>
+                     <p class="description">We focus on building market understanding, credibility, and better execution, and good business strategies and annual business plans keep companies on track.</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                     <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+                     <h4 class="title"><a href="">Experience Design</a></h4>
+                     <p class="description">Custom web design tailored to your business, your branding and your target customer, all wrapped into a package that works as good as it looks.</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+                     <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+                     <h4 class="title"><a href="">Software Development</a></h4>
+                     <p class="description">Are you looking to generate more leads? Tame a complex, content-heavy website?
+                        Our team of web design experts builds websites that look good, appear at the top of search results and are fine-tuned to convert visitors into customers.
+                     </p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                     <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                     <h4 class="title"><a href="">Marketing</a></h4>
+                     <p class="description">Help companies create marketing strategies that can take product sales to a new level.
+                        This comes through a branding process, which can include: positioning; messaging; collateral materials;
+                        advertising; public relations; company naming; product naming; and tag lines.
+                     </p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                     <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
+                     <h4 class="title"><a href="">Analytics & Visualization</a></h4>
+                     <p class="description">We turn our customers
+                        analytics into an automated process, instead of a
+                        labor-intensive, time-consuming manual process conducted by channel managers and marketing executives.
+                     </p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+                     <div class="icon"><i class="ion-ios-people-outline"></i></div>
+                     <h4 class="title"><a href="">Agile Program & Project Management</a></h4>
+                     <p class="description">
+                        Our Agile practitioners not only have deep knowledge of Agile methodologies (Scrum, Lean, Kanban, etc.). We work side-by-side with our clients
+                        to support complete transformations of people, processes, and tools for long-term strategies and scalable successes.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- #services -->
+         <!--==========================
+            Call To Action Section
+            ============================-->
+         <section id="call-to-action" class="wow fadeIn">
+            <div class="container text-center">
+               <h3>Ready to work with us?</h3>
+               <p style="padding: 0px 3em 0 3em;">From simple (and not-so-simple) blogs and business sites to full e-commerce and membership sites, we’re there to strategize, support, and take your site from dream to reality. We’re all about creating an exceptional experience — for you and for your users.</p>
+               <a class="cta-btn" href="#contact">Contact Us</a>
+            </div>
+         </section>
+         <!-- #call-to-action -->
+         <!--==========================
+            Skills Section
+            ============================-->
+         <section id="skills">
+            <div class="container">
+               <header class="section-header">
+                  <h3>Our Skills</h3>
+                  <p>I&M Consulting is a management advisory firm that assists organizations with complex transformational challenges. Our differentiator is in how we do it. A powerful mix of business consultants, industry talent, and IT experts, we are eager to take on your challenge and provide a custom solution tailored to suit your specific business or public sector needs.</p>
+               </header>
+               <div class="skills-content">
+                  <div class="progress">
+                     <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">HTML & CSS <i class="val">100%</i></span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">JavaScript <i class="val">95%</i></span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">Python <i class="val">90%</i></span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <span class="skill">Photoshop <i class="val">90%</i></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--==========================
+            Facts Section
+            ============================-->
+         <section id="facts"  class="wow fadeIn">
+            <div class="container">
+               <header class="section-header">
+                  <h3>Facts</h3>
+                  <p>A full suite of consulting, tools, and services to turn uncertainty into a clear path forward.</p>
+               </header>
+               <div class="row counters">
+                  <div class="col-lg-3 col-6 text-center">
+                     <span data-toggle="counter-up">40</span>
+                     <p>Clients</p>
+                  </div>
+                  <div class="col-lg-3 col-6 text-center">
+                     <span data-toggle="counter-up">120</span>
+                     <p>Projects</p>
+                  </div>
+                  <div class="col-lg-3 col-6 text-center">
+                     <span data-toggle="counter-up">2,500</span>
+                     <p>Hours Of Support</p>
+                  </div>
+                  <div class="col-lg-3 col-6 text-center">
+                     <span data-toggle="counter-up">10</span>
+                     <p>Hard Workers</p>
+                  </div>
+               </div>
+               <!--      <div class="facts-img">
+                  <img src="img/facts-img.png" alt="" class="img-fluid">
+                  </div>-->
+            </div>
+         </section>
+         <!-- #facts -->
+         <!--==========================
+            Portfolio Section
+            ============================-->
+         <section id="portfolio"  class="section-bg" >
+            <div class="container">
+               <header class="section-header">
+                  <h3 class="section-title">Our Portfolio</h3>
+               </header>
+               <div class="row">
+                  <div class="col-lg-12">
+                     <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">App</li>
+                        <li data-filter=".filter-card">Design</li>
+                        <li data-filter=".filter-web">Web</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="row portfolio-container">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/zensolutions.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/zensolutions.jpg" class="link-preview" data-lightbox="portfolio" data-title="Zen Solutions" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="https://www.zensolutionsinc.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="https://www.zensolutionsinc.com/" target="_blank">Zen Solutions</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app filter-web wow fadeInUp">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/bioamp.png" class="img-fluid" alt="" style="height: 15.2em !important;">
+                           <a href="img/portfolio/bioamp.png" class="link-preview" data-lightbox="portfolio" data-title="BioAmp Diagnostics" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="https://bioampdx.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="https://bioampdx.com/" target="_blank">BioAmp Diagnostics</a></h4>
+                           <p>UI/UX Design, Web Apps, Social Media Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-web filter-card wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/fagov.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/fagov.jpg" class="link-preview" data-lightbox="portfolio" data-title="Foreign Assistance" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="https://www.foreignassistance.gov/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="https://www.foreignassistance.gov/" target="_blank">Foreign Assistance</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/mindbody.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/mindbody.jpg" class="link-preview" data-lightbox="portfolio" data-title="The MindBody Project" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="https://www.themindbodyproject.com/" target="_blank">The MindBody Project</a></h4>
+                           <p>UI/UX Design, Web Apps, Social Media Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/atlanticply.png" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/atlanticply.png" class="link-preview" data-lightbox="portfolio" data-title="Atlantic Plywood" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="http://atlanticplywood.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="http://atlanticplywood.com/" target="_blank">Atlantic Plywood</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/cdph.png" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/cdph.png" class="link-preview" data-lightbox="portfolio" data-title="CDPH - Department of Public Health" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="https://www.cdph.ca.gov/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="https://www.cdph.ca.gov/" target="_blank">CDPH</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/capture.png" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/capture.png" class="link-preview" data-lightbox="portfolio" data-title="Ferrari Design" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="http://ferraridesign.github.io" target="_blank" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="http://ferraridesign.github.io" target="_blank">Ferrari Design</a></h4>
+                           <p>UI/UX Design, Web Apps, Social Media Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web filter-app wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/rosebud.png" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/rosebud.png" class="link-preview" data-lightbox="portfolio" data-title="Rosebud Ireland" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="http://www.rosebudstunes.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="http://www.rosebudstunes.com/" target="_blank">Rosebud Ireland</a></h4>
+                           <p>UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app wow fadeInUp">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/teamworkstate.jpg" class="img-fluid" alt="" style="height: 15.2em !important;width: fit-content;">
+                           <a href="img/portfolio/teamworkstate.jpg" class="link-preview" data-lightbox="portfolio" data-title="Teamwork@State - Department of State" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">Teamwork@State</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/qddr.jpg" class="img-fluid" alt="" style="height: 15.2em !important;width: fit-content;">
+                           <a href="img/portfolio/qddr.jpg" class="link-preview" data-lightbox="portfolio" data-title="QDDR - Department of State" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">QDDR</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/photography.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/photography.jpg" class="link-preview" data-lightbox="portfolio" data-title="Photography" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">Photography</a></h4>
+                           <p>UI/UX Design, Web Apps</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/usaid.png" class="img-fluid" alt="" style="height: 15.2em !important;">
+                           <a href="img/portfolio/usaid.png" class="link-preview" data-lightbox="portfolio" data-title="USAID - Performance Management Tool" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">USAID</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/3k1a.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/3k1a.jpg" class="link-preview" data-lightbox="portfolio" data-title="3k1a Strategies" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">3k1a Strategies</a></h4>
+                           <p>UI/UX Design, Web Apps</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/namemedia.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/namemedia.jpg" class="link-preview" data-lightbox="portfolio" data-title="NameMedia" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">NameMedia</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/bostontechnologies.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/bostontechnologies.jpg" class="link-preview" data-lightbox="portfolio" data-title="Boston Technologies" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="http://www.bostontechnologies.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="http://www.bostontechnologies.com/" target="_blank">Boston Technologies</a></h4>
+                           <p>UI/UX Design, Web Apps</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web wow fadeInUp">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/ilms.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/ilms.jpg" data-lightbox="portfolio" data-title="ILMS - Department of State" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">ILMS</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp">
+                     <div class="portfolio-wrap">
+                        <figure>
+                           <img src="img/portfolio/prism.jpg" class="img-fluid" alt="" style="height: 15em !important;">
+                           <a href="img/portfolio/prism.jpg" data-lightbox="portfolio" data-title="PRISM - Department of Transportation" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                           <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                        </figure>
+                        <div class="portfolio-info">
+                           <h4><a href="#">PRISM</a></h4>
+                           <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- #portfolio -->
+         <!--==========================
+            Clients Section
 
-                                  <div class="portfolio-info">
-                                    <h4><a href="#">NameMedia</a></h4>
-                                    <p>Enterprise Systems, UI/UX Design, Web Apps</p>
-                                  </div>
-                                </div>
+
+            <section id="clients" class="wow fadeInUp">
+             <div class="container">
+               <header class="section-header">
+                 <h3 class="section-title">Clients</h3>
+               </header>
+                <div class="owl-carousel clients-carousel">
+                   <img src="img/clients/AtlanticPlywood-logo.jpg" alt="" height="160" width="70">
+                   <img src="img/clients/Deloitte_Logo.png" alt="" height="160" width="70">
+                   <img src="img/clients/Rosebud-logo-color.jpg" alt="" height="160" width="70">
+                   <img src="img/clients/navy.png" alt="" height="160" width="70">
+                   <img src="img/clients/download.png" alt="" height="160" width="70">
+                   <img src="img/clients/US-DOT-Logo.png" alt="" height="160" width="70">
+                   <img src="img/clients/3k1a.png" alt="" height="160" width="70">
+                   <img src="img/clients/United_States_Department_of_Defense_Seal.svg" alt="" height="160" width="70">
+                   <img src="img/clients/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg" alt="" height="160" width="70">
+                   <img src="img/clients/Seal_of_the_United_States_Department_of_State.svg" alt="" height="160" width="70">
+                   <img src="img/clients/PricewaterhouseCoopers_Logo.svg" alt="" height="160" width="70">
+                   <img src="img/clients/Logo5.png" alt="" height="160" width="70">
+                   <img src="img/clients/logo-CDPH.png" alt="" height="160" width="70">
+                   <img src="img/clients/usaid.jpg" alt="" height="160" width="70">
+                   <img src="img/clients/Zapata-Technology-logo-solid-tag-bar-09-March-2017.jpg" alt="" height="160" width="70">
+                </div>
+             </div>
+            </section>
+            ============================-->
+            <br/>
+         <section id="process" class="wow fadeInUp">
+         <div style="max-width: 1260px;width: 100%;margin: 0 auto;">
+            <header class="section-header">
+               <h3>Our Process</h3>
+            </header>
+            <div class="tabs_wrapper">
+               <ul class="tabs">
+                  <li class="active" rel="tab1">The Process</li>
+                  <li rel="tab2">The Starting Point</li>
+                  <li rel="tab3">Base Package</li>
+                  <li rel="tab4">Add-ons</li>
+                  <li rel="tab5">Clarity is Key</li>
+                  <li rel="tab6">Additional Work</li>
+               </ul>
+               <div class="tab_container" style="min-height: 422px;">
+                  <h3 class="d_active tab_drawer_heading" rel="tab1">The Process</h3>
+                  <div id="tab1" class="tab_content" style="display: block;">
+                     <h4>a website in 3-5 days. like magic.</h4>
+                     <p>We have four packages to meet your website needs. Use the tabs to explore.</p>
+                     <ol>
+                        <li>
+                           <h5>REVIEW PACKAGE DETAILS</h5>
+                           <p>Review the details of the package we recommend for you and the information on the following pages. When you’re ready to book your project, let us know so we can send you the link to the online Spark Purchase form, which also includes our terms and conditions.</p>
+                        </li>
+                        <li>
+                           <h5>SCHEDULE YOUR PLANNING CALL</h5>
+                           <p>You will schedule your Planning Call with our Spark Coordinator, Tehya. On the call, you will be able to ask any questions you have. You will also discuss the theme you want to use and specific needs you may have or features you may want for your site.</p>
+                        </li>
+                        <li>
+                           <h5>PREPARE YOUR MATERIALS</h5>
+                           <p>Gather all of your materials (photos, text, logins, and notes) and place them into the Dropbox folder we send to you.</p>
+                        </li>
+                        <li>
+                           <h5>LET’S MAKE SOME MAGIC!</h5>
+                           <p>Our team will start to work on your site. During the work period, you will meet with Tehya to discuss and review the site as it progresses.</p>
+                        </li>
+                     </ol>
+                  </div>
+                  <h3 class=" tab_drawer_heading" rel="tab2">The Starting Point</h3>
+                  <div id="tab2" class="tab_content" style="display: none;">
+                     <p>Our packages are typically a starting point for most projects. We have done our best to understand your needs and recommend the package which we feel is the best fit for you. However, during the process, new needs may arise, and clients often choose to add on time for additional work they want us to assist with.</p>
+                     <p>Beyond our website services, we also off er strategy sessions to dive even deeper into the connection between your business and your website. If you need additional guidance, please let us know. Every client is different, and the services we provide can be tailored for your needs.</p>
+                  </div>
+                  <h3 class=" tab_drawer_heading" rel="tab3">Base Package</h3>
+                  <div id="tab3" class="tab_content" style="display: none;">
+                     <p>We offer two base packages for Spark projects. These packages both include:</p>
+                     <p><strong>PROJECT PLANNING + SUPPORT MATERIALS:</strong></p>
+                     <ul>
+                        <li>Planning Call 3-4 weeks before your project begins</li>
+                        <li>Daily Meeting to review progress and discuss site</li>
+                        <li>Custom Site Walkthrough Video</li>
+                     </ul>
+                     <p><strong>WORK TYPICALLY INCLUDES:</strong></p>
+                     <ul>
+                        <li>WordPress Setup</li>
+                        <li>New Hosting Setup and/or Content Transfer</li>
+                        <li>Theme Installation</li>
+                        <li>Blog Setup</li>
+                        <li>Addition of Social Media Icons</li>
+                        <li>Basic Contact Form Setup</li>
+                        <li>Content Addition</li>
+                        <li>Some customizations to theme styling</li>
+                     </ul>
+                     <p><strong>POST-PROJECT SUPPORT:</strong></p>
+                     <ul>
+                        <li>After your project wraps, you have a week of post-project support which includes up to 2 hours of email support. This support does not include additional requests for your site, only answers to your site-related or theme-related how-to questions.</li>
+                     </ul>
+                  </div>
+                  <h3 class=" tab_drawer_heading" rel="tab4">Add-ons</h3>
+                  <div id="tab4" class="tab_content" style="display: none;">
+                     <p>We have add-ons for:</p>
+                     <ul>
+                        <li>Membership Sites</li>
+                        <li>E-commerce Sites</li>
+                        <li>Mini-Visual Branding (if you have a logo but don’t have defined colors or fonts for your brand)</li>
+                     </ul>
+                     <p>Ask us about these options when we speak!</p>
+                  </div>
+                  <h3 class=" tab_drawer_heading" rel="tab5">Clarity is Key</h3>
+                  <div id="tab5" class="tab_content" style="display: none;">
+                     <p>Clarity is the cornerstone of a successful website. If you need guidance and further strategy around your website, we offer several different strategy packages to meet your needs, including a project planning package as well as single sessions. Strategy for your website allows you to maximize your investment and know what you need to do after your site has launched to be successful. We highly encourage you to consider investing in this work.</p>
+                     <p>Please <a href="http://alchemyandaim.com/contact/">contact us</a> if you want to purchase a package or book a session.</p>
+                  </div>
+                  <h3 class=" tab_drawer_heading" rel="tab6">Additional Work</h3>
+                  <div id="tab6" class="tab_content" style="display: none;">
+                     <p>We also assist our clients with the following:</p>
+                     <ul>
+                        <li>business strategy</li>
+                        <li>website strategy</li>
+                        <li>custom page templates</li>
+                        <li>content gathering</li>
+                        <li>email setup</li>
+                        <li>newsletter setup</li>
+                        <li>custom newsletter designs</li>
+                        <li>pop-ups, opt-ins, and more</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr style="background-color: #f7f7f7 !important;">
+         <!--==========================
+            Clients Section
+
+            <section id="testimonials" class="section-bg wow fadeInUp">============================-->
+         <section id="testimonials" class="wow fadeInUp">
+            <div class="container">
+               <header class="section-header">
+                  <h3>Testimonials</h3>
+               </header>
+               <div class="owl-carousel testimonials-carousel">
+                  <div class="testimonial-item">
+                     <img src="img/sohka.png" class="testimonial-img" alt="">
+                     <h3>Sohka Kim</h3>
+                     <h4>CEO &amp; Founder of Zen Solutions</h4>
+                     <p style="color:black">
+                        <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                        We presented the team with a daunting project, in both scale and scope. Friendly handled it beautifully and made us feel at ease. They brought organization and attention to detail; delivered standout creative; and were constantly mindful of our business needs. They're simply talented, dedicated, deadline-driven and fun to work with.
+                        <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                     </p>
+                  </div>
+                  <div class="testimonial-item">
+                     <img src="img/rosebud.png" class="testimonial-img" alt="">
+                     <h3>Rosebud Ireland</h3>
+                     <h4>Singer/Musician</h4>
+                     <p style="color:black">
+                        <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                        Highly recommend I&M Consulting for doing an exceptional professional job on redesigning my website. He’s timely and is great at seeing clients vision for what they want done. I highly recommend them to the artist community and anyone who need a website done.              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                     </p>
+                  </div>
+                  <div class="testimonial-item">
+                     <img src="img/kouri.png" class="testimonial-img" alt="">
+                     <h3>Kouri Marshall</h3>
+                     <h4>CEO of 3K1A Strategies</h4>
+                     <p style="color:black">
+                        <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                        In a matter of months, I&M Consulting revamped our outdated website into a state-of-the-art site.
+                        They effectively implemented our broad vision into a pragmatic, user-friendly design that includes several different types of media.
+                        Our website is now very intuitive and easy to update.  As well, they integrated our daily news update with our site through the Mail Chimp service.
+                        Through the entire process they were extremely professional, prompt and demonstrated close attention to detail. We offer our highest recommendation."
+                        <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                     </p>
+                  </div>
+                  <div class="testimonial-item">
+                     <img src="img/erin.png" class="testimonial-img" alt="">
+                     <h3>Erin Henshaw</h3>
+                     <h4>CEO &amp; Founder of The MindBody Project</h4>
+                     <p style="color:black">
+                        <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                        I&M Consulting provided me with an insightful, well-conceived strategy to exit one company and start another. Simply put, I was impressed by Michael's ability to assess the situation, stay focused on the issues, analyze and recommend options, and help me overcome challenges. His business consulting was responsive, creative, and indispensable.              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- #testimonials -->
+         <!--==========================
+            Team Section
+            ============================-->
+         <section id="team" style="background: #f7f7f7 !important">
+            <div class="container">
+               <div class="section-header wow fadeInUp">
+                  <h3>Team</h3>
+                  <p>We’re a team of designers, developers, and consultants</p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 wow fadeInUp">
+                     <div class="member">
+                        <img src="img/mike.png" class="img-fluid" alt="" style="height: 30em;">
+                        <div class="member-info">
+                           <div class="member-info-content">
+                              <h4>Mike Ferrari</h4>
+                              <span>Chief Executive Officer</span>
+                              <div class="social">
+                                 <a href=""><i class="fa fa-twitter"></i></a>
+                                 <a href=""><i class="fa fa-facebook"></i></a>
+                                 <a href=""><i class="fa fa-linkedin"></i></a>
                               </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/bostontechnologies.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/bostontechnologies.jpg" class="link-preview" data-lightbox="portfolio" data-title="Boston Technologies" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="http://www.bostontechnologies.com/" target="_blank" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="http://www.bostontechnologies.com/" target="_blank">Boston Technologies</a></h4>
-                <p>UI/UX Design, Web Apps</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app filter-web wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/ilms.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/ilms.jpg" data-lightbox="portfolio" data-title="ILMS - Department of State" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">ILMS</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-web wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/prism.jpg" class="img-fluid" alt="" style="height: 15em !important;">
-                <a href="img/portfolio/prism.jpg" data-lightbox="portfolio" data-title="PRISM - Department of Transportation" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">PRISM</a></h4>
-                <p>Enterprise Systems, UI/UX Design, Web Apps, Social Media Management, Agile Management</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- #portfolio -->
-
-    <!--==========================
-      Clients Section
-    ============================-->
-
-    <section id="clients" class="wow fadeInUp">
-       <div class="container">
-         <header class="section-header">
-           <h3 class="section-title">Clients</h3>
-         </header>
-          <div class="owl-carousel clients-carousel">
-             <img src="img/clients/AtlanticPlywood-logo.jpg" alt="" height="160" width="70">
-             <img src="img/clients/Deloitte_Logo.png" alt="" height="160" width="70">
-             <img src="img/clients/Rosebud-logo-color.jpg" alt="" height="160" width="70">
-             <img src="img/clients/navy.png" alt="" height="160" width="70">
-             <img src="img/clients/download.png" alt="" height="160" width="70">
-             <img src="img/clients/US-DOT-Logo.png" alt="" height="160" width="70">
-             <img src="img/clients/3k1a.png" alt="" height="160" width="70">
-             <img src="img/clients/United_States_Department_of_Defense_Seal.svg" alt="" height="160" width="70">
-             <img src="img/clients/Seal_of_the_U.S._Department_of_Veterans_Affairs.svg" alt="" height="160" width="70">
-             <img src="img/clients/Seal_of_the_United_States_Department_of_State.svg" alt="" height="160" width="70">
-             <img src="img/clients/PricewaterhouseCoopers_Logo.svg" alt="" height="160" width="70">
-             <img src="img/clients/Logo5.png" alt="" height="160" width="70">
-             <img src="img/clients/logo-CDPH.png" alt="" height="160" width="70">
-             <img src="img/clients/usaid.jpg" alt="" height="160" width="70">
-             <img src="img/clients/Zapata-Technology-logo-solid-tag-bar-09-March-2017.jpg" alt="" height="160" width="70">
-          </div>
-       </div>
-    </section>
-
-    <!--==========================
-      Clients Section
-    ============================-->
-    <section id="testimonials" class="section-bg wow fadeInUp">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Testimonials</h3>
-        </header>
-
-        <div class="owl-carousel testimonials-carousel">
-
-          <div class="testimonial-item">
-            <img src="img/sohka.png" class="testimonial-img" alt="">
-            <h3>Sohka Kim</h3>
-            <h4>CEO &amp; Founder of Zen Solutions</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              We presented the team with a daunting project, in both scale and scope. Friendly handled it beautifully and made us feel at ease. They brought organization and attention to detail; delivered standout creative; and were constantly mindful of our business needs. They're simply talented, dedicated, deadline-driven and fun to work with.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/rosebud.png" class="testimonial-img" alt="">
-            <h3>Rosebud Ireland</h3>
-            <h4>Singer/Musician</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Highly recommend I&M Consulting for doing an exceptional professional job on redesigning my website. He’s timely and is great at seeing clients vision for what they want done. I highly recommend them to the artist community and anyone who need a website done.              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/kouri.png" class="testimonial-img" alt="">
-            <h3>Kouri Marshall</h3>
-            <h4>CEO of 3K1A Strategies</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              In a matter of months, I&M Consulting revamped our outdated website into a state-of-the-art site.
-              They effectively implemented our broad vision into a pragmatic, user-friendly design that includes several different types of media.
-              Our website is now very intuitive and easy to update.  As well, they integrated our daily news update with our site through the Mail Chimp service.
-              Through the entire process they were extremely professional, prompt and demonstrated close attention to detail. We offer our highest recommendation."
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-          <div class="testimonial-item">
-            <img src="img/erin.png" class="testimonial-img" alt="">
-            <h3>Erin Henshaw</h3>
-            <h4>CEO &amp; Founder of The MindBody Project</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              I&M Consulting provided me with an insightful, well-conceived strategy to exit one company and start another. Simply put, I was impressed by Michael's ability to assess the situation, stay focused on the issues, analyze and recommend options, and help me overcome challenges. His business consulting was responsive, creative, and indispensable.              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #testimonials -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <section id="team">
-      <div class="container">
-        <div class="section-header wow fadeInUp">
-          <h3>Team</h3>
-          <p>We’re a team of designers, developers, and consultants</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/mike.png" class="img-fluid" alt="" style="height: 30em;">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Mike Ferrari</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/ileana.png" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Ileana Galvan</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                     <div class="member">
+                        <img src="img/ileana.png" class="img-fluid" alt="">
+                        <div class="member-info">
+                           <div class="member-info-content">
+                              <h4>Ileana Galvan</h4>
+                              <span>Product Manager</span>
+                              <div class="social">
+                                 <a href=""><i class="fa fa-twitter"></i></a>
+                                 <a href=""><i class="fa fa-facebook"></i></a>
+                                 <a href=""><i class="fa fa-linkedin"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                  <!--    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                     <div class="member">
+                       <img src="img/team-3.jpg" class="img-fluid" alt="">
+                       <div class="member-info">
+                         <div class="member-info-content">
+                           <h4>William Anderson</h4>
+                           <span>CTO</span>
+                           <div class="social">
+                             <a href=""><i class="fa fa-twitter"></i></a>
+                             <a href=""><i class="fa fa-facebook"></i></a>
+                             <a href=""><i class="fa fa-google-plus"></i></a>
+                             <a href=""><i class="fa fa-linkedin"></i></a>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     </div>
 
-      <!--    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                     <div class="member">
+                       <img src="img/team-4.jpg" class="img-fluid" alt="">
+                       <div class="member-info">
+                         <div class="member-info-content">
+                           <h4>Amanda Jepson</h4>
+                           <span>Accountant</span>
+                           <div class="social">
+                             <a href=""><i class="fa fa-twitter"></i></a>
+                             <a href=""><i class="fa fa-facebook"></i></a>
+                             <a href=""><i class="fa fa-google-plus"></i></a>
+                             <a href=""><i class="fa fa-linkedin"></i></a>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     </div>-->
+               </div>
+            </div>
+         </section>
+         <!-- #team -->
+         <!--==========================
+            Contact Section
+            ============================-->
+         <section id="contact" class="wow fadeInUp">
+            <div class="container">
+               <div class="section-header">
+                  <h3>Contact Us</h3>
+                  <p>We’re always on the lookout for new friends and collaborators. If you have a project you want to discuss, opportunity to explore, or problem to solve, let us know; shoot over an email, send a tweet, release a carrier pigeon, or just give us a call. We respond to them all… especially the pigeons.</p>
+               </div>
+               <div class="row contact-info">
+                  <div class="col-md-4">
+                     <div class="contact-address">
+                        <i class="ion-ios-location-outline"></i>
+                        <h3>Address</h3>
+                        <address>123 11th Street NW, Washington, DC 20001</address>
+                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  <div class="col-md-4">
+                     <div class="contact-phone">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:+155895548855">+1 781 864 6983</a></p>
+                     </div>
                   </div>
-                </div>
-              </div>
+                  <div class="col-md-4">
+                     <div class="contact-email">
+                        <i class="ion-ios-email-outline"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:ferraridesign@gmail.com">ferraridesign@gmail.com</a></p>
+                     </div>
+                  </div>
+               </div>
+               <style type="text/css">
+                  #mc_embed_signup{background: white; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+               </style>
+               <div id="mc_embed_signup" class="form">
+                  <form action="https://github.us16.list-manage.com/subscribe/post?u=ca5930748430b308bf07f09a6&amp;id=4836274512"
+                     method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate contactForm" target="_blank" novalidate>
+                     <div id="mc_embed_signup_scroll">
+                        <div class="indicates-required"><span class="asterisk"></span></div>
+                        <div class="form-row" style="background-color:white">
+                           <div class="mc-field-group form-group col-md-6">
+                              <label for="mce-MMERGE1"><span class="asterisk"></span>
+                              </label>
+                              <input type="text" value="" name="MMERGE1" class="required" id="mce-MMERGE1" placeholder="Your Name *" style="padding: 10px 14px;border-radius: 0; box-shadow: none;font-size: 15px;display: block;
+                                 width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box; border: 1px solid #ced4da;
+                                 border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                           </div>
+                           <div class="mc-field-group form-group col-md-6" style="background-color:white">
+                              <label for="mce-EMAIL"><span class="asterisk"></span>
+                              </label>
+                              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email *" style="padding: 10px 14px;border-radius: 0; box-shadow: none;font-size: 15px;display: block;
+                                 width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box; border: 1px solid #ced4da;
+                                 border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                           </div>
+                        </div>
+                        <div class="form-group" style="background-color:white">
+                           <label for="mce-MMERGE3"></label>
+                           <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3" placeholder="Subject"  style="display: block;width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;
+                              font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box;border: 1px solid #ced4da;
+                              border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                        </div>
+                        <div class="form-group">
+                           <label for="mce-MMERGE2"><span class="asterisk"></span>
+                           </label>
+                           <input type="text" value="" name="MMERGE2" class="required" id="mce-MMERGE2" placeholder="Message" style="display: block;width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;
+                              font-weight: 400;line-height: 1.5;color: #495057;background-color: white;background-clip: padding-box;border: 1px solid #ced4da;
+                              border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                           <div class="response" id="mce-error-response" style="display:none"></div>
+                           <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" class="required" name="b_ca5930748430b308bf07f09a6_4836274512" tabindex="-1" value=""></div>
+                        <div class="clear" style="text-align:center">
+                           <input type="submit" value="Send Message" name="subscribe" id="mc-embedded-subscribe" class="button"
+                              style="background: #6fb8e2;border: 0;padding: 10px 30px;color: #fff;
+                              transition: 0.4s;cursor: pointer;">
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <script type='text/javascript' src='js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='MMERGE1';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+               <!--End mc_embed_signup
+                  <div class="form">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validation"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                      </div>
+                      <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                  </div>-->
             </div>
-          </div>-->
-
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Contact Us</h3>
-          <p>We’re always on the lookout for new friends and collaborators. If you have a project you want to discuss, opportunity to explore, or problem to solve, let us know; shoot over an email, send a tweet, release a carrier pigeon, or just give us a call. We respond to them all… especially the pigeons.</p>
-        </div>
-
-        <div class="row contact-info">
-
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>123 11th Street NW, Washington, DC 20001</address>
+         </section>
+         <!-- #contact -->
+      </main>
+      <!--==========================
+         Footer
+         ============================-->
+      <footer id="footer">
+         <div class="footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 footer-info">
+                     <h3>I&M Consulting</h3>
+                     <p>We are an integrated consulting team of designers, developers, and engineers that builds fresh experiences people love.
+                        From creative brands and websites to intuitive apps and systems, we work with you from strategy to execution to create what's next.
+                     </p>
+                  </div>
+                  <div class="col-lg-3 col-md-6 footer-links">
+                     <h4>Useful Links</h4>
+                     <ul>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#header">Home</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Portfolio</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#team">Team</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 footer-contact">
+                     <h4>Contact Us</h4>
+                     <p>
+                        123 11th Street NW<br>
+                        Washington, DC 20001<br>
+                        <strong>Phone:</strong> +1 781 864 6983<br>
+                        <strong>Email:</strong> ferraridesign@gmail.com<br>
+                     </p>
+                     <div class="social-links">
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 footer-newsletter">
+                     <h4>Our Newsletter</h4>
+                     <p>Let’s start with a no-pressure conversation about your project. We don’t employ salespeople or high-pressure tactics.
+                        You’ll talk with an experienced project manager who can help you figure out exactly what your project requirements are or just give you an estimate if you already know what you need.
+                     </p>
+                     <div id="mc_embed_signup">
+                        <form action="https://github.us16.list-manage.com/subscribe/post?u=ca5930748430b308bf07f09a6&amp;id=2cc21c29c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                           <div id="mc_embed_signup_scroll">
+                              <div class="mc-field-group" style="display: inline-flex;">
+                                 <label for="mce-EMAIL"></label>
+                                 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                 <div id="mce-responses" class="clear" style="width: 30em;">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca5930748430b308bf07f09a6_2cc21c29c9" tabindex="-1" value=""></div>
+                                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
+         </div>
+      </footer>
+      <!-- #footer -->
+      <!-- Uncomment below i you want to use a preloader -->
+      <!-- <div id="preloader"></div> -->
+      <!-- JavaScript Libraries -->
+      <script type="text/javascript" src="js/new_one.js"></script>
+ 
 
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 781 864 6983</a></p>
-            </div>
-          </div>
+       <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="lib/jquery/jquery-migrate.min.js"></script>
+      <script type="text/javascript" src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="lib/easing/easing.min.js"></script>
+      <script type="text/javascript" src="lib/superfish/hoverIntent.js"></script>
+      <script type="text/javascript" src="lib/superfish/superfish.min.js"></script>
+      <script type="text/javascript" src="lib/wow/wow.min.js"></script>
+      <script type="text/javascript" src="lib/waypoints/waypoints.min.js"></script>
+      <script type="text/javascript" src="lib/counterup/counterup.min.js"></script>
+      <script type="text/javascript" src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="lib/isotope/isotope.pkgd.min.js"></script>
+      <script type="text/javascript"src="lib/lightbox/js/lightbox.min.js"></script>
+      <script type="text/javascript" src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
 
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:ferraridesign@gmail.com">ferraridesign@gmail.com</a></p>
-            </div>
-          </div>
-
-        </div>
-         <style type="text/css">
-        	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-        	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-        	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <div id="mc_embed_signup" class="form">
-        <form action="https://github.us16.list-manage.com/subscribe/post?u=ca5930748430b308bf07f09a6&amp;id=4836274512"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate contactForm" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-
-        <div class="indicates-required"><span class="asterisk"></span></div>
-        <div class="form-row">
-          <div class="mc-field-group form-group col-md-6">
-        	<label for="mce-MMERGE1"><span class="asterisk"></span>
-        </label>
-        	<input type="text" value="" name="MMERGE1" class="required" id="mce-MMERGE1" placeholder="Your Name *" style="padding: 10px 14px;border-radius: 0; box-shadow: none;font-size: 15px;display: block;
-    width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box; border: 1px solid #ced4da;
-    border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
-        </div>
-
-        <div class="mc-field-group form-group col-md-6">
-        	<label for="mce-EMAIL"><span class="asterisk"></span>
-        </label>
-        	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email *" style="padding: 10px 14px;border-radius: 0; box-shadow: none;font-size: 15px;display: block;
-    width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box; border: 1px solid #ced4da;
-    border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
-        </div>
-</div>
-        <div class="form-group">
-        	<label for="mce-MMERGE3"></label>
-        	<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3" placeholder="Subject"  style="display: block;width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;
-    font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box;border: 1px solid #ced4da;
-    border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
-        </div>
-
-
-        <div class="form-group">
-        	<label for="mce-MMERGE2"><span class="asterisk"></span>
-        </label>
-        	<input type="text" value="" name="MMERGE2" class="required" id="mce-MMERGE2" placeholder="Message" style="display: block;width: 100%;height: calc(2.25rem + 2px);padding: .375rem .75rem;font-size: 1rem;
-    font-weight: 400;line-height: 1.5;color: #495057;background-color: #fff;background-clip: padding-box;border: 1px solid #ced4da;
-    border-radius: .25rem;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;">
-        </div>
-
-        	<div id="mce-responses" class="clear">
-        		<div class="response" id="mce-error-response" style="display:none"></div>
-        		<div class="response" id="mce-success-response" style="display:none"></div>
-        	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" class="required" name="b_ca5930748430b308bf07f09a6_4836274512" tabindex="-1" value=""></div>
-            <div class="clear" style="text-align:center">
-              <input type="submit" value="Send Message" name="subscribe" id="mc-embedded-subscribe" class="button" style="background: #18d26e;border: 0;padding: 10px 30px;color: #fff;
-    transition: 0.4s;cursor: pointer;"></div>
-            </div>
-
-        </form>
-        </div>
-        <script type='text/javascript' src='js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='MMERGE1';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';fnames[2]='MMERGE2';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-
-        <!--End mc_embed_signup
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>-->
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>I&M Consulting</h3>
-            <p>We are an integrated consulting team of designers, developers, and engineers that builds fresh experiences people love.
-              From creative brands and websites to intuitive apps and systems, we work with you from strategy to execution to create what's next.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#header">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Portfolio</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#team">Team</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              123 11th Street NW<br>
-              Washington, DC 20001<br>
-              <strong>Phone:</strong> +1 781 864 6983<br>
-              <strong>Email:</strong> ferraridesign@gmail.com<br>
-            </p>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Let’s start with a no-pressure conversation about your project. We don’t employ salespeople or high-pressure tactics.
-You’ll talk with an experienced project manager who can help you figure out exactly what your project requirements are or just give you an estimate if you already know what you need.</p>
-              <div id="mc_embed_signup">
-                            <form action="https://github.us16.list-manage.com/subscribe/post?u=ca5930748430b308bf07f09a6&amp;id=2cc21c29c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                                <div id="mc_embed_signup_scroll">
-
-                            <div class="mc-field-group" style="display: inline-flex;">
-                            	<label for="mce-EMAIL"></label>
-                            	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-
-                            	<div id="mce-responses" class="clear" style="width: 30em;">
-                            		<div class="response" id="mce-error-response" style="display:none"></div>
-                            		<div class="response" id="mce-success-response" style="display:none"></div>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca5930748430b308bf07f09a6_2cc21c29c9" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                </div>
-                                </div></div>
-                            </form>
-                            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </footer><!-- #footer -->
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
+   </body>
 </html>
