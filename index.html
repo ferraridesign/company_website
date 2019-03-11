@@ -28,13 +28,59 @@
   <link href="css/style.css" rel="stylesheet">
 
 </head>
+<style>
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
 
-<body>
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+<body style="width: 100%;">
 
   <!--==========================
     Header
   ============================-->
   <header id="header">
+
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
@@ -63,6 +109,7 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!--==========================
     Intro Section
@@ -186,7 +233,7 @@
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p style="padding: 0px 3em 0 3em;">I&M Design is an integrated consulting team of designers, developers, and engineers that builds fresh experiences people love.
+          <p>I&M Design is an integrated consulting team of designers, developers, and engineers that builds fresh experiences people love.
             Powered by our design-led innovation process we deliver end-to-end experiences to help businesses grow.
             From creative brands and websites to intuitive apps and systems, we work with you from strategy to execution to create what's next.</p>
         </header>
@@ -250,7 +297,7 @@
       <div class="container">
         <header class="section-header wow fadeInUp">
           <h3>Services</h3>
-          <p style="padding: 0px 8em 0 8em;">From strategy to execution, our winning combination of innovative thinking, scientific design, sophisticated development, and ongoing analysis ensure we’re delivering value to help you grow.</p>
+          <p>From strategy to execution, our winning combination of innovative thinking, scientific design, sophisticated development, and ongoing analysis ensure we’re delivering value to help you grow.</p>
         </header>
 
         <div class="row">
@@ -861,7 +908,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p style="width: 97%;padding: 0px 4em 0px 7em;">We’re always on the lookout for new friends and collaborators. If you have a project you want to discuss, opportunity to explore, or problem to solve, let us know; shoot over an email, send a tweet, release a carrier pigeon, or just give us a call. We respond to them all… especially the pigeons.</p>
+          <p>We’re always on the lookout for new friends and collaborators. If you have a project you want to discuss, opportunity to explore, or problem to solve, let us know; shoot over an email, send a tweet, release a carrier pigeon, or just give us a call. We respond to them all… especially the pigeons.</p>
         </div>
 
         <div class="row contact-info">
@@ -1054,8 +1101,6 @@ You’ll talk with an experienced project manager who can help you figure out ex
     </div>
 
   </footer><!-- #footer -->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
