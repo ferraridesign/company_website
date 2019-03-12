@@ -1060,12 +1060,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
-  /*padding: 15px 0;*/
-  padding: 23px 10px 21px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  padding: 18px 9px 6px;
 }
 
 #clients img:hover {
   opacity: 1;
+
+  -webkit-filter: grayscale(0);
+  filter: none;
+
 }
 
 #clients .owl-nav,
