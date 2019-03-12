@@ -631,7 +631,7 @@ ul.tabs li.active:after {
  }
  .tab_content ol li:before {
    	content: counter(item);
-	background-image: url(_static/images/step.png);
+	background-image: url(../img/step.png);
 	width:67px;
 	height:65px;
 	background-repeat: no-repeat;
